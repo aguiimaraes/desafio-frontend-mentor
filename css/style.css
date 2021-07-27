@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("../images/wallpaper.jpg");
+    background-repeat: no-repeat;
+    margin: 60px;
+}
+.container{
+    background: #f2f2f2;
+    height: 550px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px #c7c7c7;
+}
+
+h1{
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    padding: 0 25px;
+    margin: 0 0 20px 0;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 11px;
+    color: #FFFFFFC0;
+    padding: 0 25px;
+}
+
+img{
+    padding: 10px 25px;
+    margin: 20px 0;
+    height: 52px;
+}
+
+.container-sedans button{
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 25px;
+    padding: 10px 25px;
+    color: #e28525;
+}
+
+.container-sedans button:hover{
+    background-color: #e28525;
+    border: 1px solid white;
+    color: white;
+}
+
+.container-suv button{
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 25px;
+    padding: 10px 25px;
+    color: #016972;
+}
+
+.container-suv button:hover{
+    background-color: #016972;
+    border: 1px solid white;
+    color: white;
+}
+.container-luxury button{
+    font-family: 'Lexend Deca', sans-serif;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    margin: 30px 25px;
+    padding: 10px 25px;
+    color: #00403f;
+}
+.container-luxury button:hover{
+    background-color: #00403f;
+    border: 1px solid white;
+    color: white;
+}
+.container .cards{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding: 100px;
+}
+
+.container .container-sedans{
+    background: #e28525;
+    height: 350px;
+    width: 210px;
+    border-radius: 5px 0 0 5px;
+}
+
+.container .container-suv{
+    background: #016972;
+    height: 350px;
+    width: 210px;
+}
+
+.container .container-luxury{
+    background: #00403f;
+    height: 350px;
+    width: 210px;
+    border-radius: 0 5px 5px 0;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center;
+    margin: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
