@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Challenge Profile Card](https://github.com/aguiimaraes/desafio-profile-card)
-- Live Site URL: [Solution Live Profile Card](https://aguiimaraes.github.io/desafio-profile-card/)
+- Solution URL: [Challenge Profile Card](https://github.com/aguiimaraes/desafio-frontend-mentor)
+- Live Site URL: [Solution Live Profile Card](https://aguiimaraes.github.io/desafio-frontend-mentor/)
 
 ## My process
 
